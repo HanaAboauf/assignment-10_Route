@@ -1,0 +1,60 @@
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+}
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: rgb(255, 194, 97);
+    transition: height 350ms;
+    z-index: -1;
+}
+h1:hover::before{
+    height: 50%;
+}
+p {
+    font-family: "Righteous", sans-serif;
+    background-image: linear-gradient(to right,#00f148, #9a24b8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+::selection {
+    color: black;
+    background: rgb(255, 194, 97);
+  }
+
+.bg-main{
+    background-color: rgb(247, 237, 223);
+    
+}
+.form-section{
+    border-bottom: 2px dotted black;
+    border-top: 2px dotted black;
+}
+.btn-submit{
+    background-color: rgb(209, 81, 46);
+}
+.btn-submit:hover{
+    background-color: #a03315;
+}
+.btn-visite{
+    background-color: #9eb23b;
+    color: #fff;
+}
+.btn-visite:hover{
+    background-color: #6e8018;
+    color: #fff;
+}
+.btn-delete{
+    background-color: #d1512d;
+    color: #fff;
+}
+.btn-delete:hover{
+    background-color: #a03315;
+    color: #fff;
+}
